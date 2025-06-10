@@ -27,4 +27,4 @@ client.on('messageCreate', async message => {
   }
 });
 
-client.login('MTM4MDAwNzk4MzkyODMxMTk5MQ.GHBFin.oZ3oa7pg6eTdfWWiM0odLefvkeWi79bodVZTXs');
+client.login(process.env.MTM4MDAwNzk4MzkyODMxMTk5MQ.GlWjl6.sldL689iFW_qJTt69BMyiUuK7rCdYydIcFPxas);
