@@ -17,7 +17,7 @@ client.on('messageCreate', async message => {
   if (message.author.bot) return;
 
   try {
-    await axios.post('https://brunolipo.app.n8n.cloud/webhook/discord-ingreso', {
+    await axios.post('https://brunolipo.app.n8n.cloud/webhook-test/discord-ingreso', {
       mensaje: message.content,
       usuario: message.author.username,
     });
